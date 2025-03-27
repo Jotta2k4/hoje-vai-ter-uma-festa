@@ -1,0 +1,82 @@
+body {
+    background-image: url(tinkerbell.jpg);
+    background-position: 55% 10%;
+    background-size: 2900px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fogos {
+    width: 50dvw;
+    height: 15dvh;
+    border-radius: 2cap;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.391);
+    box-shadow: rgba(0, 0, 0, 0.250) 5px 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tinker {
+    width: 150px;
+    padding-top: 20px;
+}
+
+.peri {
+    width: 70px;
+}
+
+.conteudo {
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.168);
+    box-shadow: rgba(0, 0, 0, 0.250) 5px 5px 10px;
+    margin: 5dvh 10%;
+    padding-bottom: 135dvh;
+    text-align: center;
+    border-radius: 4cap;
+
+    & .botoes {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        & button {
+            backdrop-filter: blur(4px);
+            background-color: rgba(255, 255, 255, 0.154);
+            box-shadow: rgba(0, 0, 0, 0.250) 5px 5px 10px;
+            border-radius: 1cap;
+            border: none;
+            height: 4dvh;
+            width: 20dvw;
+        }
+
+        & button:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+    }
+
+    & .textos {
+        padding: 0 10%;
+        
+        & .texto-1 {
+            position: absolute;
+            margin-right: 10%;
+        }
+
+        & .texto-2 {
+            position: absolute;
+            margin-right: 10%;
+        }
+    }
+}

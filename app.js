@@ -5,7 +5,7 @@ const texto2 = document.getElementsByClassName('texto-2');
 
 function fogos(){
     botao[0].style.visibility = 'hidden';
-    conteudo[0].style.visibility = 'visible';
+    conteudo[0].style.display = 'block';
     texto1[0].style.visibility = 'visible';
 }
 
