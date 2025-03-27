@@ -6,7 +6,7 @@ body {
 
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .titulo {
@@ -41,8 +41,8 @@ p {
     backdrop-filter: blur(4px);
     background-color: rgba(255, 255, 255, 0.168);
     box-shadow: rgba(0, 0, 0, 0.250) 5px 5px 10px;
-    margin: 5dvh 10%;
-    padding-bottom: 135dvh;
+    margin: 7dvh 10%;
+    padding-bottom: 113dvh;
     text-align: center;
     border-radius: 4cap;
 
